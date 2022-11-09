@@ -1,4 +1,7 @@
+import About from "./components/About";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import Section from "./components/Section";
 import "./App.css";
 
@@ -9,9 +12,9 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <Section title="About" content="TBD" id="section1" />
-        <Section title="Projects" content="TBD" id="section2" />
-        <Section title="Contact" content="TBD" id="section3" />
+        <Section title="About" content={<About />} id="section1" />
+        <Section title="Projects" content={<Projects />} id="section2" />
+        <Section title="Contact" content={<Contact />} id="section3" />
       </main>
       <footer>Created by Amanda So</footer>
     </div>
