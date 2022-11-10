@@ -14,9 +14,9 @@ function App() {
       </header>
       <main>
         <Home />
-        <Section title="About" content={<About />} id="section1" />
-        <Section title="Projects" content={<Projects />} id="section2" />
-        <Section title="Contact" content={<Contact />} id="section3" />
+        <Section title="About" content={<About />} id="section2" />
+        <Section title="Projects" content={<Projects />} id="section3" />
+        <Section title="Contact" content={<Contact />} id="section4" />
       </main>
       <footer>Created by Amanda So</footer>
     </div>
