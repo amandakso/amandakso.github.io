@@ -25,7 +25,8 @@
   margin-left: 2rem;
 }
 
-.about-container {
+.about-container,
+.project-container {
   display: grid;
   grid-auto-flow: column;
   padding: 0 30px;
@@ -34,7 +35,8 @@
 }
 
 @media (max-width: 768px) {
-  .about-container {
+  .about-container,
+  .project-container {
     grid-auto-flow: row;
     grid-template-columns: 1fr;
   }
