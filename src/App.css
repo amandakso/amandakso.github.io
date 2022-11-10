@@ -23,6 +23,7 @@
 .nav-item {
   display: inline;
   margin-left: 2rem;
+  cursor: pointer;
 }
 
 .section-content {
