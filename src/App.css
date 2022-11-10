@@ -24,3 +24,18 @@
   display: inline;
   margin-left: 2rem;
 }
+
+.about-container {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 0 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+  }
+}

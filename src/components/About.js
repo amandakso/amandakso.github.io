@@ -3,11 +3,11 @@ import AboutPhoto from "../assets/images/about.jpg";
 
 export default function About() {
   return (
-    <div>
-      <div>
+    <div className="about-container">
+      <div className="about-item">
         <img src={AboutPhoto} width={250} height={250} alt="Amanda So" />
       </div>
-      <div>
+      <div className="about-item">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sapien
           elit, vehicula vitae facilisis bibendum, rutrum ut nunc. Curabitur
