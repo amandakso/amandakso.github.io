@@ -17,6 +17,8 @@ const Projects = () => {
             alt="Screenshot of Project 1"
           />
         }
+        demo="#"
+        repo="#"
       />
     </div>
   );
