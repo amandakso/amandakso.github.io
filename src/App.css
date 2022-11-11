@@ -97,10 +97,12 @@ h2:after {
 .project-container {
   display: grid;
   grid-auto-flow: column;
-  padding: 0 30px;
+  padding: 25px 30px;
   align-items: center;
   justify-content: center;
+  gap: 25px;
 }
+
 @media (min-width: 769px) {
   .hamburger {
     display: none;
