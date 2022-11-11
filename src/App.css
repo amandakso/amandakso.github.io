@@ -28,6 +28,14 @@
 
 .section-content {
   padding: 100px;
+  min-height: 100vh;
+}
+
+.home-container,
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-container,
