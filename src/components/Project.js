@@ -9,15 +9,19 @@ export default function Project(props) {
       <div>
         <h3>{data.title}</h3>
         <p>{data.description}</p>
-        <p>
-          Live Demo{" "}
-          <a href={data.demo}>
-            <img src={open} alt="" />
-          </a>
-          Repo
-          <a href={data.repo}>
-            <img src={open} alt="" />
-          </a>
+        <p className="links">
+          <span className="demo">
+            Live Demo{" "}
+            <a href={data.demo}>
+              <img src={open} alt="" />
+            </a>
+          </span>
+          <span className="repo">
+            Repo
+            <a href={data.repo}>
+              <img src={open} alt="" />
+            </a>
+          </span>
         </p>
       </div>
     </div>

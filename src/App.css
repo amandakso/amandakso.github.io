@@ -103,6 +103,20 @@ h2:after {
   gap: 25px;
 }
 
+.links {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.repo,
+.demo {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 @media (min-width: 769px) {
   .hamburger {
     display: none;
