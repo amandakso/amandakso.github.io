@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+body {
+  font-family: "Oxygen", sans-serif;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-family: "Arvo", serif;
+}
+
 .nav {
   position: fixed;
   top: 0px;
@@ -36,6 +48,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home-container {
+  padding: 0px;
+  flex-direction: column;
 }
 
 .about-container,
