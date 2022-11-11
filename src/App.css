@@ -8,10 +8,38 @@ body {
 
 h1 {
   font-family: "Sacramento", cursive;
+  font-size: clamp(3rem, 10vw, 7rem);
+  margin: 0;
 }
 
+#home-subtitle {
+  font-size: clamp(1rem, 3vw, 2rem);
+  margin-top: 0;
+}
 h2 {
   font-family: "Arvo", serif;
+  text-align: center;
+}
+
+h2:before,
+h2:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h2:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
 
 .nav {
@@ -76,6 +104,10 @@ h2 {
 @media (min-width: 769px) {
   .hamburger {
     display: none;
+  }
+
+  h2 {
+    overflow: hidden;
   }
 }
 

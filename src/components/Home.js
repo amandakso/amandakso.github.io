@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div id="section1" className="section-content home-container">
       <h1>Amanda So</h1>
-      <p>Full stack web developer</p>
+      <p id="home-subtitle">Full stack web developer</p>
       <button>
         <Link
           activeClass="active"
