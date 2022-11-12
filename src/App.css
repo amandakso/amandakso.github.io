@@ -161,8 +161,8 @@ button {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-color: white;
-    border-top: 1px solid black;
+    background-color: var(--secondary-color, white);
+    border-top: 1px solid var(--black-color, black);
     padding: 0;
   }
   .nav-item {
