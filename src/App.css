@@ -90,6 +90,53 @@ button {
   background-color: var(--tertiary-color, gray);
   color: var(--secondary-color, black);
   border: 1px solid var(--secondary-color, black);
+  cursor: pointer;
+}
+
+/* CSS adapted from https://getcssscan.com/css-buttons-examples */
+.button-28 {
+  appearance: none;
+  background-color: var(--secondary-color, transparent);
+  border: 2px solid var(--tertiary-color, black);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: var(--tertiary-color, black);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Oxygen", sans-serif;
+  font-size: clamp(0.75rem, 1vw, 1rem);
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 30px;
+  min-width: 135px;
+  outline: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: var(--secondary-color, white);
+  background-color: var(--tertiary-color, black);
+  border: 2px solid var(--secondary-color, black);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
 }
 
 .section-content {

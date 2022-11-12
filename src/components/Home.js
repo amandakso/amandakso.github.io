@@ -6,18 +6,17 @@ const Home = () => {
     <div id="section1" className="section-content home-container">
       <h1>Amanda So</h1>
       <p id="home-subtitle">Full stack web developer</p>
-      <button>
-        <Link
-          activeClass="active"
-          to="section2"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Learn More
-        </Link>
-      </button>
+      <Link
+        className="button-28"
+        activeClass="active"
+        to="section2"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        Learn More
+      </Link>
     </div>
   );
 };
