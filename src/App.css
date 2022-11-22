@@ -55,6 +55,7 @@ h2:after {
 
 h3 {
   font-size: 1.3rem;
+  color: var(--tertiary-color, black);
 }
 
 .nav {
