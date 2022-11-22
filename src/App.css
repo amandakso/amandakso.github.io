@@ -171,6 +171,11 @@ button {
   grid-auto-flow: column;
 }
 
+.projectImg {
+  width: clamp(250px, 45vw, 60vw);
+  height: auto;
+}
+
 .repo,
 .demo {
   display: grid;
