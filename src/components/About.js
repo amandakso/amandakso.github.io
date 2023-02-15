@@ -8,7 +8,7 @@ export default function About() {
         <img src={AboutPhoto} width={250} height={250} alt="Amanda So" />
       </div>
       <div className="about-item">
-        <p>
+        <p className="about-text">
           Hi I&apos;m Amanda, a physical therapist turned full-stack web
           developer.
           <br />

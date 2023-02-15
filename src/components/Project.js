@@ -8,8 +8,8 @@ export default function Project(props) {
       <div>{data.photo}</div>
       <div>
         <h3>{data.title}</h3>
-        <p className="project-item">{data.description}</p>
-        <p className="project-item links">
+        <p className="project-text">{data.description}</p>
+        <p className="project-text links">
           <span className="demo">
             Live Demo{" "}
             <a href={data.demo}>

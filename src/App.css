@@ -172,9 +172,10 @@ button {
   gap: 25px;
 }
 
-.about-item,
-.project-item {
+.about-text,
+.project-text {
   font-size: clamp(1rem, 2vw, 1.5rem);
+  text-align: left;
 }
 
 .links {
