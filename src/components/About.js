@@ -9,17 +9,21 @@ export default function About() {
       </div>
       <div className="about-item">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sapien
-          elit, vehicula vitae facilisis bibendum, rutrum ut nunc. Curabitur
-          eget augue sollicitudin, consequat enim vitae, cursus tellus. Proin
-          mattis ipsum id magna efficitur, ac ornare sapien fringilla. Vivamus
-          ullamcorper leo sapien, ultricies pharetra elit aliquam eget. Donec
-          purus ex, faucibus eget consequat in, pharetra sed purus. Quisque at
-          urna pretium, pulvinar ligula in, euismod eros. Aenean tempus tortor
-          eget massa finibus, fermentum ultrices purus congue. Duis in elementum
-          massa. Praesent quis sodales enim, ut fringilla tellus. Aliquam
-          lobortis, tortor condimentum faucibus pulvinar, tellus leo venenatis
-          ex, a mattis nisl diam et ex.
+          Hi I&apos;m Amanda, a physical therapist turned full-stack web
+          developer.
+          <br />
+          My curious and compassionate nature has led to a lifelong journey of
+          seeking knowledge and finding ways to help others. Working in the
+          healthcare setting, I was constantly problem-solving and using
+          clinical reasoning to help treat my patients. I now use these skills
+          I&apos;ve honed as a physical therapist in web development, teaching
+          myself the latest technologies and best coding practices. The ubiquity
+          of the web and the large role it plays in our society amazes me and I
+          hope to write code that will make a positive difference. I am
+          passionate about finding elegant solutions to problems and creating
+          user-friendly web applications. <br />
+          Apart from coding, I enjoy playing board games, traveling, and trying
+          out new recipes.
         </p>
       </div>
     </div>
