@@ -11,7 +11,8 @@ export default function About() {
         <p className="about-text">
           Hi I&apos;m Amanda, a physical therapist turned full-stack web
           developer.
-          <br />
+        </p>
+        <p className="about-text">
           My curious and compassionate nature has led to a lifelong journey of
           seeking knowledge and finding ways to help others. Working in the
           healthcare setting, I was constantly problem-solving and using
@@ -21,7 +22,9 @@ export default function About() {
           of the web and the large role it plays in our society amazes me and I
           hope to write code that will make a positive difference. I am
           passionate about finding elegant solutions to problems and creating
-          user-friendly web applications. <br />
+          user-friendly web applications.{" "}
+        </p>
+        <p className="about-text">
           Apart from coding, I enjoy playing board games, traveling, and trying
           out new recipes.
         </p>
