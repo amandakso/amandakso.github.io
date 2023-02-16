@@ -19,10 +19,10 @@ export default function About() {
           clinical reasoning to help treat my patients. I now use these skills
           I&apos;ve honed as a physical therapist in web development, teaching
           myself the latest technologies and best coding practices. The ubiquity
-          of the web and the large role it plays in our society amazes me and I
-          hope to write code that will make a positive difference. I am
-          passionate about finding elegant solutions to problems and creating
-          user-friendly web applications.{" "}
+          of the web and the large role it plays in our society has me hopeful
+          that code I write can make a positive difference. I am passionate
+          about finding elegant solutions to problems and creating user-friendly
+          web applications.{" "}
         </p>
         <p className="about-text">
           Apart from coding, I enjoy playing board games, traveling, and trying
