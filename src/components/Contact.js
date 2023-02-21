@@ -20,7 +20,7 @@ export default function Contact() {
         </a>
       </div>
       <div className="contact-item">
-        <a href="https://www.linkedin.com/in/amanda-so-412ba7217">
+        <a href="https://www.linkedin.com/in/amandakso">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
             height={36}
