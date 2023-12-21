@@ -36,6 +36,15 @@ const Projects = () => {
       demo: "https://amandakso.github.io/odin-blog-client/",
       repo: "https://github.com/amandakso/odin-blog-client",
     },
+    {
+      title: "OdinBook",
+      description:
+        "A facebook clone developed with MERN stack. Project in progress.",
+      id: "project3",
+      photo: null,
+      demo: "https://github.com/amandakso/odin-facebook-api",
+      repo: "https://github.com/amandakso/odin-facebook-api",
+    },
   ];
 
   return (
