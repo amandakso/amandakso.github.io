@@ -20,12 +20,12 @@ export default function About() {
           I&apos;ve honed as a physical therapist in web development, teaching
           myself the latest technologies and best coding practices. The ubiquity
           of the web and the large role it plays in our society has me hopeful
-          that code I write can make a positive difference. I am passionate
-          about finding elegant solutions to problems and creating user-friendly
-          web applications.{" "}
+          that the code I write can make a positive difference. I am passionate
+          about finding creative solutions to problems and developing
+          user-friendly web applications.{" "}
         </p>
         <p className="about-text">
-          Apart from coding, I enjoy playing board games, traveling, and trying
+          Apart from coding, I enjoy playing board games, crocheting, and trying
           out new recipes.
         </p>
       </div>
