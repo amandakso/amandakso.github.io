@@ -20,7 +20,7 @@ export default function About() {
           I&apos;ve honed as a physical therapist in web development, teaching
           myself the latest technologies and best coding practices. The ubiquity
           of the web and the large role it plays in our society has me hopeful
-          that the code I write can make a positive difference. I am passionate
+          that the code I write can make a positive impact. I am passionate
           about finding creative solutions to problems and developing
           user-friendly web applications.{" "}
         </p>
