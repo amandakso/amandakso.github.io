@@ -47,7 +47,7 @@ const Projects = () => {
         "A facebook clone developed with MERN stack. Project in progress.",
       id: "project3",
       photo: photoPlaceholder,
-      alt: "Project in progress. Project placeholder photo by Brett Jordan on Unsplash",
+      alt: "Project in progress. Project placeholder photo of a developing plant. Photo by Francesco Gallarotti on Unsplash",
       demo: "https://github.com/amandakso/odin-facebook-api",
       repo: "https://github.com/amandakso/odin-facebook-api",
     },
