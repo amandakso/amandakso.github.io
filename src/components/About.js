@@ -15,14 +15,14 @@ export default function About() {
         <p className="about-text">
           My curious and compassionate nature has led to a lifelong journey of
           seeking knowledge and finding ways to help others. Working in the
-          healthcare setting, I was constantly problem-solving and using
-          clinical reasoning to help treat my patients. I now use these skills
-          I&apos;ve honed as a physical therapist in web development, teaching
-          myself the latest technologies and best coding practices. The ubiquity
-          of the web and the large role it plays in our society has me hopeful
-          that the code I write can make a positive impact. I am passionate
-          about finding creative solutions to problems and developing
-          user-friendly web applications.{" "}
+          healthcare field, I was constantly problem-solving and using clinical
+          reasoning to help treat my patients. I now use these skills I&apos;ve
+          honed as a physical therapist in web development, teaching myself the
+          latest technologies and best coding practices. The ubiquity of the web
+          and the large role it plays in our society has me excited about the
+          positive impact the code I write can have. I am passionate about
+          finding creative solutions to problems and developing user-friendly
+          web applications.{" "}
         </p>
         <p className="about-text">
           Apart from coding, I enjoy playing board games, crocheting, and trying
