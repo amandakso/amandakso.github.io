@@ -21,11 +21,11 @@ export default function About() {
           latest technologies and best coding practices. The ubiquity of the web
           and the large role it plays in our society has me excited about the
           positive impact the code I write can have. I am passionate about
-          finding creative solutions to problems and developing user-friendly
-          web applications.{" "}
+          finding creative solutions to problems and developing beautiful,
+          user-friendly web applications.{" "}
         </p>
         <p className="about-text">
-          Apart from coding, I enjoy playing board games, crocheting, and trying
+          Apart from coding, I enjoy playing board games, traveling, and trying
           out new recipes.
         </p>
       </div>
