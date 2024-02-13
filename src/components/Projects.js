@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.png";
-import photoPlaceholder from "../assets/images/photoPlaceholder.jpg";
+import project3 from "../assets/images/project3.png";
 
 /**
  * Project list template
@@ -46,7 +46,7 @@ const Projects = () => {
       description:
         "A facebook clone developed with MERN stack. Project in progress.",
       id: "project3",
-      photo: photoPlaceholder,
+      photo: project3,
       alt: "Project in progress. Project placeholder photo of a developing plant. Photo by Francesco Gallarotti on Unsplash",
       demo: "https://github.com/amandakso/odin-facebook-api",
       repo: "https://github.com/amandakso/odin-facebook-api",
