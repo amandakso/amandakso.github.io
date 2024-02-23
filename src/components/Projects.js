@@ -1,8 +1,8 @@
 import React from "react";
 import Project from "./Project";
-import project1 from "../assets/images/project1.png";
-import project2 from "../assets/images/project2.png";
-import project3 from "../assets/images/project3.png";
+import pandagramPhoto from "../assets/images/pandagramPhoto.png";
+import blogPhoto from "../assets/images/blogPhoto.png";
+import odinbookPhoto from "../assets/images/odinbookPhoto.png";
 
 /**
  * Project list template
@@ -22,11 +22,21 @@ import project3 from "../assets/images/project3.png";
 const Projects = () => {
   const projectList = [
     {
+      title: "OdinBook",
+      description:
+        "A facebook clone developed with MERN stack. Project in progress.",
+      id: "project3",
+      photo: odinbookPhoto,
+      alt: "Project in progress. Project placeholder photo of a developing plant. Photo by Francesco Gallarotti on Unsplash",
+      demo: "https://github.com/amandakso/odin-facebook-api",
+      repo: "https://github.com/amandakso/odin-facebook-api",
+    },
+    {
       title: "Pandagram",
       description:
         "An instagram clone application developed using React and Firebase. Users can upload photos, like/comment on posts, and follow other users.",
       id: "project1",
-      photo: project1,
+      photo: pandagramPhoto,
       alt: "Screenshot of Pandagram project",
       demo: "https://pandagram-39745.web.app/",
       repo: "https://github.com/amandakso/odin-instagram",
@@ -36,20 +46,10 @@ const Projects = () => {
       description:
         "A blog created with an API-only backend and two frontends. One frontend serves as the client-side blog site where users can access and comment on blog posts. The other frontend allows users to create and edit blog posts.",
       id: "project2",
-      photo: project2,
+      photo: blogPhoto,
       alt: "Screenshot of Blog Site project",
       demo: "https://amandakso.github.io/odin-blog-client/",
       repo: "https://github.com/amandakso/odin-blog-client",
-    },
-    {
-      title: "OdinBook",
-      description:
-        "A facebook clone developed with MERN stack. Project in progress.",
-      id: "project3",
-      photo: project3,
-      alt: "Project in progress. Project placeholder photo of a developing plant. Photo by Francesco Gallarotti on Unsplash",
-      demo: "https://github.com/amandakso/odin-facebook-api",
-      repo: "https://github.com/amandakso/odin-facebook-api",
     },
   ];
 
