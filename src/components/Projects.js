@@ -28,7 +28,7 @@ const Projects = () => {
       id: "project3",
       photo: odinbookPhoto,
       alt: "Project in progress. Project placeholder photo of a developing plant. Photo by Francesco Gallarotti on Unsplash",
-      demo: "https://github.com/amandakso/odin-facebook-api",
+      demo: "https://odin-facebook-client.vercel.app/",
       repo: "https://github.com/amandakso/odin-facebook-api",
     },
     {
