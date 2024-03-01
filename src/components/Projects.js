@@ -24,10 +24,10 @@ const Projects = () => {
     {
       title: "OdinBook",
       description:
-        "A facebook clone developed with MERN stack. Project in progress.",
+        "A facebook clone web application developed with MERN stack. Users can create/edit posts on web applications. Users are able to add friends and like/comment on posts. Friendship statuses allow only friends of users to interact with a user's posts. Project in progress.",
       id: "project3",
       photo: odinbookPhoto,
-      alt: "Project in progress. Project placeholder photo of a developing plant. Photo by Francesco Gallarotti on Unsplash",
+      alt: "Screenshot of OdinBook project",
       demo: "https://odin-facebook-client.vercel.app/",
       repo: "https://github.com/amandakso/odin-facebook-api",
     },
