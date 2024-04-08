@@ -3,7 +3,8 @@ import Project from "./Project";
 import pandagramPhoto from "../assets/images/pandagramPhoto.png";
 import blogPhoto from "../assets/images/blogPhoto.png";
 import odinbookPhoto from "../assets/images/odinbookPhoto.png";
-import photoPlaceholder from "../assets/images/photoPlaceholder.jpg";
+import nextReadPhoto from "../assets/images/nextReadPhoto.png";
+// import photoPlaceholder from "../assets/images/photoPlaceholder.jpg";
 
 /**
  * Project list template
@@ -27,8 +28,8 @@ const Projects = () => {
       description:
         "A web application built with Vite and deployed with Vercel. Users can generate book prompts for their next read and receive prompt-related book suggestions.",
       id: "project1",
-      photo: photoPlaceholder,
-      alt: "Placeholder photo of a plant growing",
+      photo: nextReadPhoto,
+      alt: "Screenshot of Next Read Project",
       demo: "https://next-read-seven.vercel.app/",
       repo: "https://github.com/amandakso/next-read",
     },
