@@ -30,16 +30,6 @@ export default function About() {
           user-friendly web applications.{" "}
         </p>
         <p className="about-text">
-          With my background in healthcare and my drive for continuous learning,
-          I am well-equipped to navigate the challenges of web development and
-          deliver exceptional results. My goal is to combine my technical skills
-          with my empathetic nature to create digital experiences that truly
-          resonate with users. I am excited to contribute my unique perspective
-          and problem-solving abilities to a dynamic tech team, where I can
-          continue to grow and make a meaningful impact through innovative web
-          solutions.{" "}
-        </p>
-        <p className="about-text">
           Apart from coding, I enjoy playing board games, traveling, and trying
           out new recipes.
         </p>
