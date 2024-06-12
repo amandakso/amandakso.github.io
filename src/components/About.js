@@ -13,16 +13,31 @@ export default function About() {
           developer.
         </p>
         <p className="about-text">
-          My curious and compassionate nature has led to a lifelong journey of
-          seeking knowledge and finding ways to help others. Working in the
-          healthcare field, I was constantly problem-solving and using clinical
-          reasoning to help treat my patients. I now use these skills I&apos;ve
-          honed as a physical therapist in web development, teaching myself the
-          latest technologies and best coding practices. The ubiquity of the web
-          and the large role it plays in our society has me excited about the
-          positive impact the code I write can have. I am passionate about
-          finding creative solutions to problems and developing beautiful,
+          As a curious and compassionate individual, I have embarked on a
+          lifelong journey of seeking knowledge and finding ways to help others.
+          Throughout my time in the healthcare field, I constantly employed
+          problem-solving skills and clinical reasoning to provide the best care
+          for my patients. I now use these skills I&apos;ve honed as a physical
+          therapist in web development, teaching myself the latest technologies
+          and best coding practices.{" "}
+        </p>
+        <p className="about-text">
+          The ubiquitous nature of the web and its profound impact on our
+          society inspire me to create positive change through the code I write.
+          I am passionate about finding creative solutions to problems and
+          developing beautiful, user-friendly web applications. I am passionate
+          about finding creative solutions to problems and developing beautiful,
           user-friendly web applications.{" "}
+        </p>
+        <p className="about-text">
+          With my background in healthcare and my drive for continuous learning,
+          I am well-equipped to navigate the challenges of web development and
+          deliver exceptional results. My goal is to combine my technical skills
+          with my empathetic nature to create digital experiences that truly
+          resonate with users. I am excited to contribute my unique perspective
+          and problem-solving abilities to a dynamic tech team, where I can
+          continue to grow and make a meaningful impact through innovative web
+          solutions.{" "}
         </p>
         <p className="about-text">
           Apart from coding, I enjoy playing board games, traveling, and trying
